@@ -1,0 +1,40 @@
+1. favicon.cc
+2. div is the content divisor
+3. If we don't assign properties to element, the browser default properties or
+user agent stylesheet will be given. Overwrite browser default stylesheet
+4. border-width: 0px 10px 20px 30px; => top--> right--> bottom-->left =>
+=> clockwise direction
+5. box: margin--> border--> edge(height, width) --> padding
+Height = border--height + content--height + padding--Height
+Width = border--width + content--width + padding--width
+
+6. Display properties: Block, Inline, Inline-Block, None
+7. <span></span> is an inline element(As large as you need to be), others <img>,
+<a href=...>. Cannot change the properties
+7. Change display => display: inline; or display: block;
+display: inline-block(can change width, height also adjust as large as you are);
+8. display: none => hide the element from webpage without white space
+   visibility: hidden => delete the element from webpage left with white space
+
+9. Two ways to center elements: text-align; margin: 0 auto;
+10. font-family: opt1, op2, opt3.... if first fail render, then second, then third...
+can go to CSS Font Stack to copy and paste
+11. Embedded the font to your web site. download font from google fonts
+link in the head
+12. Complementary color palette to create a logo
+13. colorhunt.co
+14. https://www.flaticon.com
+15. https://giphy.com
+16. font-size: 16px = 100% = 1em
+17. font-size inheritance: ex: body font-size: 2em, h1 font-size: 1em => 2 + 1 = 3 em
+for px no inheritance. using rem to avoid inheritance.
+
+18. If want the text below image wrap the image, using float. float: left =>
+image to the left, text to the right.
+
+19. clear: left or right push the text to the bottom of images.
+
+20. Only using float for wrapping text, using relative, absolute or margin to locate the
+position.
+
+21. https://css3buttongenerator.com/

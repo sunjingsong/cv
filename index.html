@@ -3,70 +3,80 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Jingsong Sun's Personal Site</title>
+  <title>Jingsong Sun</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="img/JingsongSun.jpg" width="150" height="176" alt="Jingsong Sun profile picture" /></td>
-      <td>
-        <h1>Jingsong Sun</h1>
-        <p><em>Master Student in <strong><a href="https://www.csudh.edu/">Computer Science</a></strong></em></p>
-        <p>I am an Web Developer and Data Analyst. I love coffee and brew my own beers.</p>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I am Jingsong.</h1>
+    <h2 id="subtitle">Software Engineer & Data Analyst</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="images/jingsong.png" alt="jingsong-img">
+      <h2>Hello.</h2>
+      <p class="intro">I am a hardworking and motivated individual, with a Master degree in Computer Science from
+        <span><a href="https://www.csudh.edu/">California State University, Dominguez Hills(CSUDH)</a></span>.
+        I am an excellent team worker and am able to take instructions from all levels and build up good working
+        relaionships with all colleagues. I am flexible, reliable and good time manager.
+      </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="left-img" src="images/computer.png" alt="computer-img">
+        <h3>Web Development & Deployment</h3>
+        <p class="">
+          I am proficient in structuring and styling vivid web pages with knowledge of HTML/CSS and Bootstrap framework.
+          I am familiar with multiple technology stacks(Java + spring, Python + Flask-RESTful, JavaScript + express.js + node.js).
+          The most familiar technology stack is  Node.js + express.js + MongoDB. I can deploy the project easily to Heroku and AWS
+          using Git command. I can use linux/unix command line to install, create, edit and deploy the project files.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="right-img" src="images/statistics.png" alt="statistics-img">
+        <h3>Data Analysis</h3>
+        <p class="">The tools I often used are Python(Numpy+Pandas+Matplotlib+Seaborn), SPSS and R.
+          I understand the basic knowledge of Linear Regression, Logistic Regression, Cluster, Principal Component Analyst and Neural Network.
+          I have work expriences in Data Anlyst for 5 years and understand each step of data process.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="left-img" src="images/team.png" alt="team-img">
+        <h3>Soft Skills</h3>
+        <p class="">
+          I like communication and am a good listener in the work. I have been a team leader when we go for field expriences in the past.
+          I am a time manager never to beyond the deadline of tasks.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Multiple ways to contact me.</h3>
+      <p class="mid">Are you interested in talking with me? click the button below.</p>
+      <br>
+      <a class="btn" href="contact-me.html">CONTACT ME</a>
+    </div>
+  </div>
 
-  <hr>
-  <h3>Books and Teaching</h3>
-  <ul>
-    <li>THec COmplete IOS APP development Bootcamp</li>
-    <li>THec COmplete IOS APP development Bootcamp</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="20">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010-2012</td>
-        <td>Lead Developer at Temp App</td>
-      </tr>
-      <tr>
-        <td>2010</td>
-        <td>Researcher at The Institue of CSUDH</td>
-      </tr>
-    </tbody>
-    <tfoot>
 
-    </tfoot>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/sunjingsong">Github</a>
+    <a class="footer-link" href="https://scholar.google.com/citations?user=nejnhc4AAAAJ&hl=en">Google Scholar</a>
+    <p class="mid">© 2020 Jingsong Sun.</p>
+  </div>
 
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="20">
-    <tr>
-      <td>Web Development</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>iOS Development</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Photography</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">Contact Me</a>
+
+
 </body>
 
 </html>
